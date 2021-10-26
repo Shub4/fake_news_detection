@@ -34,6 +34,7 @@ Random Forest are built on the concept of building many decision tree algorithms
 ### Results
 
 The confusion matrix for all algorithms:
+
 ![image](https://user-images.githubusercontent.com/83857444/138891092-fb79071b-cf8d-43b6-b543-79a764381306.png)
 ![image](https://user-images.githubusercontent.com/83857444/138891197-6492a715-2626-472b-b676-d037a01c8581.png)
 ![image](https://user-images.githubusercontent.com/83857444/138891224-ed17f0e4-6b63-4693-a0c1-a363a4df43ff.png)

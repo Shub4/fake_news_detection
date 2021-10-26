@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename="news.css")}}">
+
+<style>
+
+h1{
+  font-family: Georgia, serif;
+}
+
+h2{
+font-family: "Goudy Bookletter 1911", sans-serif;
+}
+</style>
+
+</head>
+
+
+<body>
+
+   <center><header>
+     <br><h1> Fake News Detector </h1><br><br>
+
+   </header></center>  
+   
+   
+   
+   <center><form method='POST'>
+
+     <br><br><br><br><textarea style="background-color:#EFF4F5;" type='text' name='text' placeholder='Enter your text here' rows="8" cols="60"></textarea>
+     <br><br><br><button type='submit', value='submit'>Submit</button><br><br>
+
+   </form></center>  
+
+   <center><br><br><p>
+     {% if prediction==0 %}
+     <h2 style="color:blue;"> This news is Reliable! </h2>
+     {% elif prediction==1 %}
+     <h2 style="color:red;"> This news is not Reliable! </h2>
+     {% elif prediction==2 %}
+     <h2 style="color:black;"> No Input Received! </h2>
+     {% endif %}
+   </p><br><br><br></center>  
+
+ 
+ <a href="https://www.linkedin.com/in/shubham-bachchan-187283146/" target="_blank" style="margin-right:90px">Linkedin</a>
+<a href="https://github.com/Shub4" target="_blank" style="margin-right:20px">GitHUb</a>
+</body>
+
+</html>

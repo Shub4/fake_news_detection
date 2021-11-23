@@ -22,10 +22,10 @@ The main reason of utilizing NLP is to work with the specialization of system un
 Since our data is class oriented , supervised classification model are being chosen achieve more accurate results. There are three algorithms that are adopted in this project for classifying the fake news.
 
 #### 3a.	Naïve Bayes
-This works on the bayes theorem of probability.Naive Bayes assumes that one function in the category has nothing to do with another. The NB models are good at representing simple behaviors in data not complex, but can be reshaped easily.
+This works on the bayes theorem of probability. Naive Bayes assumes that one function in the category has nothing to do with another. The NB models are good at representing simple behaviors in data not complex, but can be reshaped easily.
 
 #### 3b.	KNN (k-Nearest Neighbors)
-This works on the principle of euclidean distance and is a cluster vased model. KNN classifies positions based on the measured distance from the neighboring k with respect to them. 
+This works on the principle of euclidean distance and is a cluster based model. KNN classifies positions based on the measured distance from the neighboring k with respect to them. 
 
 #### 3c.	Random Forest
 Random Forest are built on the concept of building many decision tree algorithms, after which the decision trees get a separate result. The results, which are predicted by large number of decision tree, are taken up by the random forest. Unlike NB it can work easily on complex behaviors of data, but it can result in overfitting also.
@@ -50,7 +50,7 @@ Mean Absolute Error:
 ### Conclusion:
 * Here we will be focusing on improved False Negative as we want to predict fake news correctly.KNN is lagging on most of the metrics maintaining lowest performance. Naïve Bayes has good Recall than Random forest but it is somewhat equal and RF recall can be further improved by increasing n_estimators. 
 *	Naïve Bayes comes out to be fastest to train the model following by RF and KNN.
-*	Accurancy is quite improved in Random forest which is 5.8% more than NB and f-Score is 3.4% more.
+*	Accuracy is quite improved in Random forest which is 5.8% more than NB and f-Score is 3.4% more.
 *	Though training RF is time consuming but it has shown significant improvement in performance and predicting better than the other two models with the overall accuracy of 90% which has potential for further improvements with parameter tunning.
 
 ### Skills

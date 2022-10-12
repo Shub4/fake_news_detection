@@ -54,8 +54,7 @@ Mean Absolute Error:
 *	Though training RF is time consuming but it has shown significant improvement in performance and predicting better than the other two models with the overall accuracy of 90% which has potential for further improvements with parameter tunning.
 
 ### Skills
-*	NLP, Sentiment Analysis
-*	Feature extraction from raw text using TF-IDF, CountVectorizer
-*	Sklearn
+*	NLTK, Sentiment Analysis
+*	Machine Learning
 *	Flask
 *	Html
